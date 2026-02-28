@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+img {
+  width: 250px;      
+  height: 250px;     
+  object-fit: cover; 
+}
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
